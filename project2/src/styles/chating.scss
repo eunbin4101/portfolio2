@@ -1,0 +1,123 @@
+.chatBody,.chatHeader{
+    background: #a1c0d6;
+  }
+  .chatHeader{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  
+    div{
+      color: #000;
+    }
+  }
+  .menuBar{
+    div{
+      span{
+        font-size: 15px;
+      }
+      a{
+        i{
+          color: #000;
+        }
+      }
+    }
+  }
+  .date{
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .chatContent1{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    span{
+      font-size: 10px;
+      color: rgba(0,0,0,0.5);
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+      p{
+        padding: 8px 5px;
+        background-color: #ffe934;
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        align-self: flex-end;
+      }
+    }
+  }
+  .chatContent2{
+    display: flex;
+    span{
+      font-size: 10px;
+      color: rgba(0,0,0,0.5);
+    }
+    div{
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      h3{
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 5px;
+        margin-bottom: 10px;
+      }
+      p{
+        padding: 8px 5px;
+        border-radius: 5px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        align-self: flex-start;
+      }
+    }
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+    }
+  }
+  .message{
+    position: fixed;
+    height: 45px;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5px;
+    box-sizing: border-box;
+    span{
+      background: #ffe934;
+      padding: 9px 10px;
+      cursor: pointer;
+      color: #523737;
+      font-size: 18px;
+    }
+    i{
+      padding-left: 10px;
+      padding-right: 60px;
+      color: #b4b4b4;
+      font-size: 18px;
+    }
+    div{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      input{
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        position: relative;
+      }
+      i{
+        position: absolute;
+        right: 50px;
+        color: #b4b4b4;
+        font-size: 18px;
+      }
+    }
+  }

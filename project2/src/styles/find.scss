@@ -1,0 +1,39 @@
+/*find.css*/
+.findMeun{
+    div{
+      background: #eee;
+      padding: 20px 30px 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a{
+        display: flex;
+        flex-direction: column;
+        color: #523737;
+        text-decoration: none;
+        text-align: center;
+        i{
+          padding-bottom: 5px;
+          font-size: 20px;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .findContent{
+    h6{
+      border-bottom: 1px solid #ebebeb;
+      font-size: 12px;
+      padding: 5px 10px;
+      color: #b4b4b4;
+    }
+    p{
+      border-bottom: 1px solid #ebebeb;
+      text-align: center;
+      color: #b4b4b4;
+      font-size: 14px;
+      padding: 20px;
+    }
+  }

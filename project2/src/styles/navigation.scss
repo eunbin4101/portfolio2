@@ -1,0 +1,37 @@
+.tabBar{
+    position: fixed;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 30px 5px 30px;
+    box-sizing: border-box;
+    border-top: 1px solid #c1c1c1;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    div{
+      a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-decoration: none;
+        color: #c1c1c1;
+        transition: all 0.3s linear;
+        i{
+          font-size: 20px;
+          padding-bottom: 3px;
+          box-sizing: border-box;
+        }
+        span{
+          font-size: 10px;
+        }
+      }
+      a:hover{
+        transform: scale(1.1);
+      }
+    }
+    .friends{
+      a{
+        color: #523737;
+      }
+    }
+  }
